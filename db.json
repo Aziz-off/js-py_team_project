@@ -1,0 +1,166 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "content": "Hello World!",
+      "comments": [
+        {
+          "id": 1707647072742,
+          "text": {
+            "text": "eeeee",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:24:32.742Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        }
+      ]
+    },
+    {
+      "title": "Поход в горы",
+      "description": "Я была на вершите пика Комсомолец!",
+      "category": "",
+      "price": 1111,
+      "picture": "https://naked-science.ru/wp-content/uploads/2023/01/b04ba39ce0948aab2da81f7348a27f5e-scaled.jpeg",
+      "videoPath": "",
+      "year": "2023",
+      "id": 2,
+      "comments": []
+    },
+    {
+      "title": "ыыы",
+      "description": "ыыыы",
+      "category": "",
+      "price": 111,
+      "picture": "https://naked-science.ru/wp-content/uploads/2023/01/b04ba39ce0948aab2da81f7348a27f5e-scaled.jpeg",
+      "videoPath": "",
+      "year": "ыыы",
+      "id": 3,
+      "comments": [
+        {
+          "id": 1707644962973,
+          "text": {
+            "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1",
+            "text": "1"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        },
+        {
+          "id": 1707645722515,
+          "text": {
+            "text": "Вау, очень красиво. Я там был, всем советую!",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:02:02.515Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        }
+      ]
+    },
+    {
+      "title": "111",
+      "description": "111",
+      "category": "",
+      "price": 2222,
+      "picture": "https://cojo.ru/wp-content/uploads/2023/01/riukzak-puteshestvennika-1.webp",
+      "videoPath": "",
+      "year": "111",
+      "id": 4,
+      "comments": [
+        {
+          "id": 1707646318003,
+          "text": {
+            "text": "Круто!\n",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:11:58.003Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        }
+      ]
+    },
+    {
+      "title": "qqq",
+      "description": "qqqq",
+      "category": "",
+      "price": 222,
+      "picture": "https://sportishka.com/uploads/posts/2022-03/thumbs/1646927800_58-sportishka-com-p-puteshestvie-osenyu-turizm-krasivo-foto-71.jpg",
+      "videoPath": "",
+      "year": "qqq",
+      "id": 5,
+      "comments": [
+        {
+          "id": 1707646462330,
+          "text": {
+            "text": "Молодцы",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:14:22.330Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        },
+        {
+          "id": 1707646867430,
+          "text": {
+            "text": "1",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:21:07.430Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        },
+        {
+          "id": 1707647047858,
+          "text": {
+            "text": "1111",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:24:07.858Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        },
+        {
+          "id": 1707647058636,
+          "text": {
+            "text": "eeee",
+            "username": "admin@admin.com",
+            "createdAt": "2024-02-11T10:24:18.636Z"
+          },
+          "userId": "XjccuwVkxreC2RzJh1kjS1fQncm1"
+        },
+        {
+          "id": 1707647738435,
+          "text": "www",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:35:38.435Z"
+        },
+        {
+          "id": 1707647790167,
+          "text": "www",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:36:30.166Z"
+        },
+        {
+          "id": 1707647940263,
+          "text": "sss",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:39:00.263Z"
+        },
+        {
+          "id": 1707648512800,
+          "text": "ыыыы",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:48:32.800Z"
+        },
+        {
+          "id": 1707648858624,
+          "text": "sdfghjk",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:54:18.624Z"
+        },
+        {
+          "id": 1707648911480,
+          "text": "bbb",
+          "username": "admin@admin.com",
+          "createdAt": "2024-02-11T10:55:11.480Z"
+        }
+      ]
+    }
+  ],
+  "categories": []
+}

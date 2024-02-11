@@ -1,0 +1,49 @@
+.main-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .comment-container {
+    border: 1px solid #007bff;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: aliceblue;
+    font-family: fantasy;
+  }
+  
+  .comment-flexbox {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .comment-text {
+    margin-right: 10px;
+    color: #007bff;
+    font-family: fantasy;
+  }
+  
+  .input-box {
+    flex: 1;
+    height: 50px;
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px; 
+  }
+  
+  .comment-button {
+    width: 130px;
+    height: 50px;
+    color: #fff; 
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: blue;
+    cursor: pointer;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    outline: none;
+}
