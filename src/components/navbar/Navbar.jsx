@@ -1,14 +1,30 @@
-import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useContext, useState, useEffect } from "react";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/MyLogo.png";
 import heart from "../../assets/icons8-сердце-48.png";
 import { useAuthContext } from "../context/AuthContextProvider";
+import { usePosts } from "../context/PostsContextProvider";
 
 function Navbar() {
   const navigate = useNavigate();
-  const [search, setSearch] = useState("");
+  // const [search, setSearch] = useState("");
+
+  //! SEARCH
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [search, setSearch] = useState(searchParams.get("q") || "");
+  const { getPosts } = usePosts();
   const { user, logOut } = useAuthContext();
+ 
+  useEffect(()=>{
+    setSearchParams({
+      q: search,
+    });
+  }, [search]);
+
+  useEffect(()=>{
+    getPosts();
+  }, [searchParams]);
 
   return (
     <div className="header">
@@ -16,6 +32,7 @@ function Navbar() {
         <div className="logo" onClick={() => navigate("/")}>
           <img src={logo} alt="Logo" />
         </div>
+        <Link to="/notes">Notes</Link>
         <ul className="nav-list">
           <li className="search-item">
             <div className="search">

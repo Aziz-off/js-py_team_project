@@ -7,6 +7,7 @@ import Auth from "../components/auth/Auth";
 import Login from "../components/auth/Login";
 import AddPost from "../components/products/AddPost";
 import PostReview from "../components/products/PostReview";
+import Notes from "../components/products/Notes";
 
 const MainRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const MainRoutes = () => {
       <Route path="/auth" element={<Auth />} />
       <Route path="/login" element={<Login />} />
       <Route path="/addPost" element={<AddPost />} />
+      {/* <Route path="/notes" element={<Notes />} /> */}
     </Routes>
   );
 };

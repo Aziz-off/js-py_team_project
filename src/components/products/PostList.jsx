@@ -13,6 +13,7 @@ const PostList = () => {
   useEffect(() => {
     getPosts();
   }, [searchParams]);
+  
   //!=====PAGINATION=========
   const [page, setPage] = useState(1);
   const handleChange = (event, value) => {
